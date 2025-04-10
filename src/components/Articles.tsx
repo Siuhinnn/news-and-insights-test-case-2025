@@ -58,11 +58,11 @@ const Articles = () => {
           prevEl: ".articles-swiper-button-prev",
         }}
         breakpoints={{
-          768: {
+          1024: {
             slidesPerView: 2,
             spaceBetween: 30,
           },
-          1024: {
+          1280: {
             slidesPerView: 3,
             spaceBetween: 30,
           },

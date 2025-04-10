@@ -21,11 +21,11 @@ const Header = () => {
               height: "2rem",
             }}
           />
-          <span className="text-xl">Menu</span>
+          <span className="text-xl hidden lg:block">Menu</span>
         </button>
         <button className="flex items-center space-x-2 hover:opacity-80 cursor-pointer">
           <Image src="/images/aav.png" alt="Search" width={32} height={32} />
-          <span className="text-xl">Search</span>
+          <span className="text-xl hidden lg:block">Search</span>
         </button>
       </div>
 
