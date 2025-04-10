@@ -5,8 +5,14 @@
   --color-icon: rgb(233, 228, 204);
 }
 
-body {
+body,
+h2,
+h3 {
   font-family: var(--font-futura-bt);
+}
+
+h1 {
+  font-family: var(--font-dm-serif-display);
 }
 
 /* Customize Swiper.js navigation button disabled states */

@@ -3,7 +3,7 @@ import NewsDropdown from "./NewsDropdown";
 
 const NewsSection = () => {
   return (
-    <section className="w-full bg-header-bg text-icon-gold p-8 md:p-12 flex flex-col md:flex-row bg-[var(--color-background)]">
+    <section className="w-full max-h-[500px] bg-header-bg text-icon-gold p-8 md:p-12 flex flex-col md:flex-row bg-[var(--color-background)]">
       <div className="flex-shrink-0 w-full md:w-auto md:pr-8 lg:pr-12 mb-8 md:mb-0">
         <NewsDropdown />
       </div>
